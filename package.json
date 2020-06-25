@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "name": "proyetco_final",
+  "version": "1.0.0",
+  "description": "proyecto final IS Grupo C año 2020",
+  "scripts": {
+    "start": "ENV=dev node --experimental-modules src/main_telegram.js",
+    "test": "ENV=dev node --experimental-modules --inspect-brk Test/Index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/prodriguez1984/IS.git"
+  },
+  "author": "Pablo Rodriguez, Pablo Podgaiz, Eric Riscmuller\u001b[D\u001b[B\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dh\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Cm, Matias Sandler",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mysql": "^2.18.1",
+    "node-telegram-bot-api": "^0.50.0",
+    "nodemailer": "^6.4.8",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "save": "^2.4.0",
+    "telegram": "^1.0.0-alpha.2"
+  }
+}
