@@ -2,7 +2,7 @@ import dotenv from 'dotenv'
 dotenv.config();
 const BOT_TYPE = "Telegram";
 const BOT_TOKEN = process.env.TELEGRAM_BOT;
-//'1230685140:AAF5dohYQHnq_5NGjW7ztVUiWSYR9awZ9Uc';
+
 const URL_PRODUCT_TYPE = 'http://localhost:8080/IntegratedBussinesManagerWeb/rest/productTypes';
 const URL_PRODUCT = 'http://localhost:8080/IntegratedBussinesManagerWeb/rest/products';
 const URL_LOGIN = 'http://localhost:8080/IntegratedBussinesManagerWeb/rest/login';
